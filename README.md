@@ -9,8 +9,11 @@
 - Interested in applying **AI and agentic workflows** to networking, tooling, and systems problems.
 - Active open-source contributor working on C++20 runtime hardening, Python diagnostics, and Linux/Vulkan verification.
 
-### Open Source Contributions
-- **[ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida)** — C++20 runtime, Vulkan/Linux testing, and Python tooling ([view all PRs](https://github.com/ItsNotRexed/Leonida/pulls?q=is%3Apr+author%3Ailyasssif)):
+### Open Source & Technical Contributions
+- **[Algorithms for Optimization](https://github.com/algorithmsbooks/optimization)** (*Mykel J. Kochenderfer & Tim A. Wheeler, MIT Press*) — Credited for 2 mathematical errata corrections in Chapter 10 (Constrained Optimization):
+  - **p. 172 (Example 10.3):** Clarified that the directional derivative of *f* along the contour of *h* should be zero.
+  - **p. 177 (KKT Stationarity):** Corrected the stationarity wording so the objective gradient lies in the span of the active constraint gradients.
+- **[ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida)** *(AI-assisted)* — C++20 runtime hardening, Vulkan/Linux testing, and Python tooling ([view all PRs](https://github.com/ItsNotRexed/Leonida/pulls?q=is%3Apr+author%3Ailyasssif)):
   - **Merged:** [#6863](https://github.com/ItsNotRexed/Leonida/pull/6863) — `xcl_compare`: preserve `trace_<attempt>.jsonl` files across hang restarts ([`3d7fcd6d8`](https://github.com/ItsNotRexed/Leonida/commit/3d7fcd6d8)).
   - **Open PRs:**
     - [#6971](https://github.com/ItsNotRexed/Leonida/pull/6971) — `arena_size`: clamp negative `LEONIDA_ARENA_MB` to 16 MiB floor instead of unsigned wraparound to 4095 MiB.
